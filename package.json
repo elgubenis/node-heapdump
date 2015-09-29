@@ -1,8 +1,8 @@
 {
-  "name": "heapdump",
+  "name": "heapdump-nosignal",
   "main": "./lib/main",
   "version": "0.3.7",
-  "description": "Make a dump of the V8 heap for later inspection.",
+  "description": "Make a dump of the V8 heap for later inspection. NODE_HEAPDUMP_OPTIONS=nosignal always.",
   "homepage": "https://github.com/bnoordhuis/node-heapdump",
   "author": {
     "name": "Ben Noordhuis",
